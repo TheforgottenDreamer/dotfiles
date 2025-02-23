@@ -10,7 +10,7 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
-eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init --config ~/.config/oh-my-posh/oh-my-theme.json zsh)"
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
